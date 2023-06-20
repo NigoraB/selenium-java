@@ -4,7 +4,17 @@
     <listeners>
         <listener class-name="utils.SuiteListener"></listener>
     </listeners>
-    <test verbose="2" preserve-order="true" name="/Users/tonreyes/Desktop/Project/selenium-java/SeleniumFramework">
+    <test thread-count="5" name="Chrome Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.IntegrationTest">
+                <methods>
+                    <include name="loginScenarioTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test thread-count="5" name="Firefox Test">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="tests.IntegrationTest">

@@ -12,12 +12,12 @@ target/
 *.iml
 *.ipr
 .idea/misc.xml
-.idea/modules.xml
 .idea/vcs.xml
 .idea/workspace.xml
 .idea
 .idea/uiDesigner.xml
 target
+reports
 
 
 
