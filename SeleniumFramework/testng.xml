@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utils.SuiteListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/tonreyes/Desktop/Project/selenium-java/SeleniumFramework">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.IntegrationTest">
+                <methods>
+                    <include name="loginScenarioTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
