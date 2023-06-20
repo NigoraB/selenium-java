@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e9143dd-e803-41cf-8a96-41e3fa5992c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/selenium-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberTestNGFramework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberTestNGFramework/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberTestNGFramework/src/test/java/Runners/testRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberTestNGFramework/src/test/java/stepDefinitions/Steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberTestNGFramework/src/test/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberTestNGFramework/src/test/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberTestNGFramework/src/test/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberTestNGFramework/src/test/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberTestNGFramework/src/test/resources/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageEvents/LoginEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageEvents/LoginEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/html/automationExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/html/automationExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

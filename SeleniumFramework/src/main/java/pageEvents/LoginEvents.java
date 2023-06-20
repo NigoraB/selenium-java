@@ -10,7 +10,9 @@ import static pageObjects.LoginPageObjects.*;
 public class LoginEvents {
     FetchElement ele = new FetchElement();
     public void verifyLoginPageIsLoaded(){
-        Assert.assertEquals(ele.getWebElements(FetchElement.SELECTOR.XPATH, loginButton).size(), 0, "Element found");
+        int size;
+        size = ele.getWebElements(FetchElement.SELECTOR.XPATH, loginButton).size();
+        Assert.assertTrue(size > 0, "Element Found");
     }
 
     public void enterCredentials(String email, String password){
