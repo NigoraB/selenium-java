@@ -24,7 +24,7 @@ public class BaseTest {
     public static WebDriver driver;
     public ExtentReports extent;
     public ExtentSparkReporter sparkReporter;
-    public ExtentTest logger;
+    public static ExtentTest logger;
     @BeforeTest
     public void beforeTestMethod(){
         sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir") + File.separator + "src" + File.separator + "reports" + File.separator + "html" +File.separator + "automationExtentReport.html");
@@ -43,7 +43,7 @@ public class BaseTest {
         setDriver(browser);
         driver.manage().window().maximize();
         driver.get(Constants.url);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
     }
 
@@ -57,6 +57,7 @@ public class BaseTest {
         } else if (result.getStatus() == ITestResult.SUCCESS) {
             logger.log(Status.PASS, MarkupHelper.createLabel(result.getName() + " - Test Case Passed", ExtentColor.GREEN));
         }
+        driver.close();
         if (driver!=null){
             driver.quit();
         }

@@ -1,5 +1,6 @@
 package pageEvents;
 
+import base.BaseTest;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import utils.FetchElement;
@@ -12,11 +13,13 @@ public class LoginEvents {
     public void verifyLoginPageIsLoaded(){
         int size;
         size = ele.getWebElements(FetchElement.SELECTOR.XPATH, loginButton).size();
-        Assert.assertTrue(size > 0, "Element Found");
+        boolean flag = size > 0;
+        BaseTest.logger.info("Verify login page is loaded successfully - status : "+flag);
+        Assert.assertTrue(flag, "Element Found");
     }
 
     public void enterCredentials(String email, String password){
-
+        BaseTest.logger.info("Entering the credentials with parameters ["+email+"] "+"["+password+"]");
         WebElement txtEmail = ele.getWebElement(FetchElement.SELECTOR.NAME, emailTextField);
         txtEmail.clear();
         txtEmail.sendKeys(email);
@@ -26,7 +29,8 @@ public class LoginEvents {
     }
 
     public void clickLoginButton(){
-       WebElement btnLogin = ele.getWebElement(FetchElement.SELECTOR.XPATH, loginButton);
-       btnLogin.click();
+        BaseTest.logger.info("Clicking the Login button");
+        WebElement btnLogin = ele.getWebElement(FetchElement.SELECTOR.XPATH, loginButton);
+        btnLogin.click();
     }
 }
