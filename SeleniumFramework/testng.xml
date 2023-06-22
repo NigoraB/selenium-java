@@ -7,7 +7,7 @@
     <test thread-count="5" name="Chrome Test">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="tests.IntegrationTest">
+            <class name="tests.E2ETest">
                 <methods>
                     <include name="loginScenarioTest"/>
                 </methods>
@@ -17,9 +17,9 @@
     <test thread-count="5" name="Firefox Test">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="tests.IntegrationTest">
+            <class name="tests.E2ETest">
                 <methods>
-                    <include name="loginScenarioTest"/>
+<!--                    <include name="loginScenarioTest"/>-->
                 </methods>
             </class>
         </classes>
