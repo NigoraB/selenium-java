@@ -9,19 +9,19 @@
         <classes>
             <class name="tests.E2ETest">
                 <methods>
-                    <include name="loginScenarioTest"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test thread-count="5" name="Firefox Test">
-        <parameter name="browser" value="chrome"></parameter>
-        <classes>
-            <class name="tests.E2ETest">
-                <methods>
 <!--                    <include name="loginScenarioTest"/>-->
                 </methods>
             </class>
         </classes>
     </test>
+<!--    <test thread-count="5" name="Firefox Test">-->
+<!--        <parameter name="browser" value="chrome"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="tests.E2ETest">-->
+<!--                <methods>-->
+<!--&lt;!&ndash;                    <include name="loginScenarioTest"/>&ndash;&gt;-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

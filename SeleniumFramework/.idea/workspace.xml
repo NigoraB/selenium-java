@@ -6,11 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="5e9143dd-e803-41cf-8a96-41e3fa5992c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageEvents/DashboardEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageEvents/DashboardEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageEvents/HomePageEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageEvents/HomePageEvents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageEvents/LoginEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageEvents/LoginEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ContactPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ContactPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/DashboardPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DashboardPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/FetchElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/FetchElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/E2ETest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/LoginSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/TempLoginDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/E2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/E2ETest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/loginDetails.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

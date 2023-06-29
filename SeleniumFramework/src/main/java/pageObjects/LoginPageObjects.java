@@ -1,7 +1,7 @@
 package pageObjects;
 
 public interface LoginPageObjects {
-    String loginButton = "//div[contains(text(),'Login')]";
-    String emailTextField = "email";
-    String passwordTextField = "password";
+    String loginButton_xPath = "//div[contains(text(),'Login')]";
+    String emailTextField_name = "email";
+    String passwordTextField_name = "password";
 }
