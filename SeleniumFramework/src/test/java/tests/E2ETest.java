@@ -2,10 +2,7 @@ package tests;
 
 import base.BaseTest;
 import org.testng.annotations.Test;
-import pageEvents.ContactEvents;
-import pageEvents.DashboardEvents;
-import pageEvents.HomePageEvents;
-import pageEvents.LoginEvents;
+import pageEvents.*;
 import utils.FetchElement;
 
 public class E2ETest extends BaseTest {
@@ -14,7 +11,6 @@ public class E2ETest extends BaseTest {
     HomePageEvents homePage = new HomePageEvents();
     ContactEvents contactEvents = new ContactEvents();
     DashboardEvents dashboardEvents = new DashboardEvents();
-
     @Test
     public void loginScenarioTest(){
         homePage.clickSignInButton();
@@ -22,10 +18,11 @@ public class E2ETest extends BaseTest {
         loginEvents.enterCredentials("test@test.com", "password");
         loginEvents.clickLoginButton();
     }
+//
+//    @Test
+//    public void createContact(){
+//
+//    }
 
-    @Test
-    public void createContact(){
-
-    }
 
 }

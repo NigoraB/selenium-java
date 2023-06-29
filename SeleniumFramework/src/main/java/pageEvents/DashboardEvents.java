@@ -1,15 +1,15 @@
 package pageEvents;
 
 import pageObjects.DashboardPageObjects;
-import pageObjects.HomePageObjects;
+import utils.Constants;
 import utils.FetchElement;
 
 public class DashboardEvents {
     FetchElement ele = new FetchElement();
     public void hoverMainNavigation(){
-        ele.getWebElement(FetchElement.SELECTOR.XPATH, DashboardPageObjects.mainNavigation).click();
+        ele.getWebElement(Constants.SELECTOR.XPATH, DashboardPageObjects.mainNavigation_xPath).click();
     }
     public void clickContactMenu(){
-        ele.getWebElement(FetchElement.SELECTOR.XPATH, DashboardPageObjects.contactMenu).click();
+        ele.getWebElement(Constants.SELECTOR.XPATH, DashboardPageObjects.contactMenu_xPath).click();
     }
 }

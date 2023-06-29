@@ -3,11 +3,11 @@ package utils;
 import base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
+import utils.Constants.SELECTOR;
 
 import java.util.List;
 
-public class FetchElement {
+public class FetchElement{
 
     public WebElement getWebElement(SELECTOR identifierType , String identifierValue) {
         WebElement result;
@@ -43,12 +43,6 @@ public class FetchElement {
             default:
                 return null;
         }
-    }
-    public static enum SELECTOR {
-        XPATH,
-        CSS,
-        NAME,
-        ID
     }
 
 }
