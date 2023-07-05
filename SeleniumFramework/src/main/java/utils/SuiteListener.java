@@ -7,7 +7,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.testng.IAnnotationTransformer;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.annotations.IDataProviderAnnotation;
 import org.testng.annotations.ITestAnnotation;
 
 import java.io.File;
